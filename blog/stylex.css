@@ -1,0 +1,13 @@
+.bottom-footer{
+	border-top: 1px solid #b2b2b2;
+	margin-top: 10px;
+	padding-top: 10px;
+	color: #b2b2b2;
+}
+.footer-nav li:not(first-child):before{ content: ' | '; padding-left: 0px 10px;}
+.footer-nav a{ color: #fff; }
+.footer-nav{ text-align: right; }
+.footer-nav li{
+	display: inline;
+	list-style: none;
+}
